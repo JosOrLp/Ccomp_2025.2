@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    //----------------- SOLUCION DEL COMPAÑERO JORGE -----------------------
+    //----------------- SOLUCION DEL COMPAÃ‘ERO JORGE -----------------------
 
     long long n, i = 1, d = 0;
     cin >> n ;
@@ -50,7 +50,7 @@ int main()
     cin >> numero;
     int num = 0;
     while (num < numero){
-        if (  ( (num == 3 ) || (num == 2 ) || (num == 5) || (num == 7) ) || !( (num % 3 == 0) || (num % 2 == 0) || (num % 5 == 0) || (num % 7 == 0) )  )
+        if (  ( (num == 3 ) || (num == 2 ) || (num == 5) || (num == 7) ) || !( (num % 3 == 0) || (num % 2 == 0) || (num % 5 == 0) || (num % 7 == 0) )  )// falta el 13 17 y demas 
         {
             cout << num << endl;
         }
